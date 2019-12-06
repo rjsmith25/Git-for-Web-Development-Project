@@ -1,0 +1,122 @@
+https://codepen.io/rsmith1/pen/GRgJeVw?editors=1100
+
+1. What is Semantic HTML?
+Semantic HTML is markup that gives meaning to your webpage.
+
+2. What is HTML used for?
+HTML is used to structure your webpage.
+
+3. What is an attribute and where do we put it?
+Attributes are additional information about an HTML element, you put the attribute on to the element.
+
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+The h1 tag is used to show the most important heading on a webpage, it is generally good practice to use it only once.
+
+5. Name two tags that have required attributes
+The a tag and img tag.
+
+6. What do we put in the head of our HTML document?
+A title tag and meta tags are usually put in the head of a document.
+
+7. What is an id?
+An id is unique id for a HTML element.
+
+8. What elements can I add an id to?
+The id tag can go on most html elements.
+
+9. How many times can I use the same id on a page?
+You can only use the id tag only once.
+
+10. What is a class?
+A css selector to select an element to style.
+
+11. What elements can I add a class to?
+You can add class to most html elements.
+
+12. How many times can I use the same class on a page?
+You can use the css class as many time as you want.
+
+13. How do I get my link to open in a new tab?
+To open a link to a new tab add target="_blank" to anchor tag.
+
+14. What is the alt attribute used for?
+The alt attribute is used for image to give a description.
+
+15. How do I reference an id?
+To reference an id you use the # symbol.
+
+16. What is the difference between a section and a div
+Section is use to show different parts of the page, while div is a general tag that can be used for styling.
+
+17. What is CSS used for?
+CSS is used to style a page.
+
+18. How to we select an element? Example - every h2 on the page
+To select an element put the element name with open brackets and add styles.
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A class you can use on multiple elements, and id only on one element, you use class when you want to style a group of elements that need same style, you use id usually with javascript to select an element to manipulate.
+
+20. How do we select classes in CSS?
+You use dot(.) with name of the class
+
+21. How do we select a p element with a single class of “human””?
+
+.human {
+
+}
+
+22. What is a parent child selector? When would this be useful?
+The parent child selector is used to specify a parent element and its child elements, its useful so
+
+23. How do you select all links within a div with the class of sidebar?
+.sidebar a
+
+24. What is a pseudo selector?
+A selector that selects elements that are in a specific state.
+
+25. What do we use the change the spacing between lines?
+Using the line-height property.
+
+26. What do we use to change the spacing between letters?
+Using the letter-spacing property.
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase; text-transform: lowercases;
+
+
+28. How do I add a 1px border around my div that is dotted and black?
+border: 1px dotted black
+
+29. How do I select everything on the page?
+using the * selector
+
+30. How do I write a comment in CSS?
+by using  /* and end it with */
+
+31. How do I find out what file I am in, when I am using the command line?
+by using pwd command
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Using the ls command
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+using the rm command, you can delete important system files so you have to be careful
+
+34. Why should I use version control?
+to manage your code, and have other people also work on it
+
+35. How often should I commit to github?
+When you have made changes to a file
+
+36. What is the command we would use to push our repo up to github?
+git push -u origin firstname-lastname
+
+37. Walk me through Lambda's git flow.
+1. fork repo
+2. add TL as a collaborator
+3. clone repo
+4. create a new branch with firstname-lastname
+5. Push your new branch up to GitHub and make all future pushes to that branch
+6. Add your TL as a reviewer on the Pull Request
